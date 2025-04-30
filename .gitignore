@@ -1,0 +1,61 @@
+# ---> Node.js and NPM packages
+node_modules/
+package-lock.json
+yarn.lock
+
+# ---> TypeScript Compiler Output
+dist/
+*.tsbuildinfo
+
+# ---> IDE - Visual Studio Code
+.vscode/
+*.code-workspace
+
+# ---> IDE - WebStorm, IntelliJ
+.idea/
+
+# ---> MacOS
+.DS_Store
+
+# ---> Logs
+logs/
+*.log
+npm-debug.log*
+
+# ---> Environment variables
+.env
+
+# ---> Dependency directories
+bower_components/
+
+# ---> Unix OS generated files
+*.swp
+*.swo
+*~
+
+# ---> Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Node.js dependencies
+node_modules/
+
+# Compiled TypeScript files
+dist/
+build/
+
+# Logs & cache
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.cache
+
+# TypeScript-specific files
+*.tsbuildinfo
+
+# ---> Operating System generated files
+ehthumbs.db
+Thumbs.db
+EOL
