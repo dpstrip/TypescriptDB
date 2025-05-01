@@ -1,10 +1,20 @@
 {
   "dependencies": {
     "@types/sqlite3": "^3.1.11",
+    "lokijs": "^1.5.12",
+    "nedb": "^1.8.0",
     "sqlite3": "^5.1.7",
     "ts-node": "^10.9.2"
   },
   "scripts": {
-    "start": "ts-node test.ts"
+    "start": "ts-node src/test.ts",
+    "lint": "eslint . --ext .ts,.tsx"
+  },
+  "devDependencies": {
+    "@types/lokijs": "^1.5.14",
+    "@types/nedb": "^1.8.16",
+    "@typescript-eslint/eslint-plugin": "^8.31.1",
+    "@typescript-eslint/parser": "^8.31.1",
+    "eslint": "^9.25.1"
   }
 }
