@@ -7,7 +7,7 @@
     "ts-node": "^10.9.2"
   },
   "scripts": {
-    "start": "ts-node src/test.ts",
+    "start": "tsc src/db/typescript-data-layer/src/index.ts",
     "lint": "eslint . --ext .ts,.tsx"
   },
   "devDependencies": {
